@@ -1,0 +1,22 @@
+.border{
+    border: 2px solid black;
+    border-radius: 3.5px;
+    background-color: #faebd7;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 150%;
+}
+.centerGrid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tableback{
+}
+
+.no-wrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
+  }

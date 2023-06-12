@@ -1,0 +1,30 @@
+<div>
+
+  <h1>Planets</h1>
+    
+    <div class="tableback">
+        <table class="">
+          <thead>
+            <tr >
+              <th class="border " *ngFor="let columnDef of columnDefs">{{ columnDef.field }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="no-wrap" *ngFor="let row of rowData">
+              <td class="border no-wrap content-size " *ngFor="let columnDef of columnDefs">
+                {{ row[columnDef.field] }}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <button (click)="page1()">1</button>
+        <button (click)="page2()">2</button>
+        <button (click)="page3()">3</button>
+        <button (click)="page4()">4</button>
+        <button (click)="page5()">5</button>
+        <button (click)="page6()">6</button>
+      </div>
+    
+</div>

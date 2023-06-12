@@ -1,0 +1,27 @@
+.navBar{
+    background-color: #c2b5a8;
+    padding: 2px;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+.nav_img{
+    max-height: 5%;
+    max-width: 5%;
+}
+.centerGrid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    padding-top: 2%;
+}
+.background{
+    background-color: #FDDC5C;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -10;
+}
